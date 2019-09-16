@@ -25,18 +25,18 @@ local AXIS_LOCK_ANGLE 		= .05235987755983
 
 
 --those dank vars
-local currentRotation 		= 0
-local Camera 				= workspace.CurrentCamera
-local axisAngCos			= math.cos(AXIS_LOCK_ANGLE)
-local axisAngSin			= math.sin(AXIS_LOCK_ANGLE)
-local zeroVector 			= Vector3.new(0,0,0)
-local zeroAngleCF			= CFrame.Angles(0,0,0)
-local frontAngleCF			= CFrame.Angles(math.pi*.5,0,0)
-local sideAngleCF			= CFrame.Angles(0,0,math.pi*.5)
-local Normals 				= {
-								Up = Vector3.new(0,1,0);
-								Down = Vector3.new(0,-1,0);
-							}
+local currentRotation = 0
+local Camera = workspace.CurrentCamera
+local axisAngCos = math.cos(AXIS_LOCK_ANGLE)
+local axisAngSin = math.sin(AXIS_LOCK_ANGLE)
+local zeroVector = Vector3.new(0,0,0)
+local zeroAngleCF = CFrame.Angles(0,0,0)
+local frontAngleCF = CFrame.Angles(math.pi*.5,0,0)
+local sideAngleCF = CFrame.Angles(0,0,math.pi*.5)
+local Normals = {
+	Up = Vector3.new(0,1,0);
+	Down = Vector3.new(0,-1,0);
+}
 
 local MODULES
 
